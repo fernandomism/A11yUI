@@ -1,7 +1,5 @@
 # A11yUI
 
-# `<Button />`
-
 (A work in progress)
 
 A11yUI is a lightweight, customizable React component library focused on accessibility and usability. Designed to save developers time by providing ready-to-use, accessible UI components while allowing full customization via design tokens.
@@ -83,7 +81,7 @@ You can customize:
 
 ## 📸 Screenshot
 
-> *(Optional)* Add a screenshot or a GIF showing different variants here
+> Will add when I get to it
 
 ---
 
