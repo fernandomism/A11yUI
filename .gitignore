@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+storybook-static/
+
+# Environment files
+.env
+.env.local
+.npmrc
+
+# Logs
+*.log
+
+# Caches
+*.cache
+
+# Test coverage
+coverage/
+
+# IDE/editor files
+.DS_Store
+.vscode/
