@@ -8,58 +8,16 @@ A11yUI is a lightweight, customizable React component library focused on accessi
 
 ## ✅ Props
 
-| Prop         | Type                                              | Default     | Description                                          |
-|--------------|---------------------------------------------------|-------------|------------------------------------------------------|
-| `variant`    | `'primary' | 'secondary' | 'tertiary' | ...`         | `'primary'` | Visual style variant                                 |
-| `type`       | `'button' | 'submit' | 'reset'`                  | `'button'`  | Native button behavior                               |
-| `disabled`   | `boolean`                                         | `false`     | Disables the button                                 |
-| `iconOnly`   | `boolean`                                         | `false`     | Indicates the button is icon-only                   |
-| `label`      | `string`                                          | `—`         | Required if `iconOnly` is true for accessibility     |
-| `useGradient`| `boolean`                                         | `false`     | Enables gradient background styling                  |
 
 ---
 
 ## 🧪 Examples
-
-### 🟣 Primary
-
-```tsx
-<Button variant="primary">Primary</Button>
-```
-
-### 🎀 Secondary
-
-```tsx
-<Button variant="secondary">Secondary</Button>
-```
-
-### 💥 Danger with Gradient
-
-```tsx
-<Button variant="danger" useGradient>Delete</Button>
-```
-
-### ♿ Icon-Only
-
-```tsx
-<Button iconOnly label="Settings">
-  <SettingsIcon />
-</Button>
-```
 
 ---
 
 ## 🌈 Theming & Customization
 
 This component supports design tokens.
-
-To override the default theme:
-
-```tsx
-<ThemeProvider theme={myTheme}>
-  <Button variant="primary">Themed!</Button>
-</ThemeProvider>
-```
 
 You can customize:
 - Backgrounds (base, hover, focus, active)
